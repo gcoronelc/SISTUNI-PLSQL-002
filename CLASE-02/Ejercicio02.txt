@@ -15,4 +15,19 @@ Función para convertir una fecha a
 formato HH:MM:SS 
 
 
+Ejercicio 2.3
+====================
+
+Desarrollar un procedimiento que permita
+registrar un nuevo empleado en esquema VENTAS.
+
+
+Ejercicio 2.4
+====================
+
+Desarrollar un procedimiento que permita
+registrar una nueva venta en esquema VENTAS.
+
+
+
 
