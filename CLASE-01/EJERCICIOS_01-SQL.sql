@@ -13,7 +13,7 @@ EJERCICIO 02
 Crear un procedimiento que permita 
 averiguar la cantidad de empleados
 de un departamento, así como también
-en importe de su planilla.
+el importe de su planilla.
 
 Debe usar variables de tipo OUT.
 

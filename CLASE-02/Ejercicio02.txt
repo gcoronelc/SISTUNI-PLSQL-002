@@ -1,0 +1,18 @@
+
+Ejercicio 2.1
+
+FN_DATE_STR
+
+Función para convertir una fecha a
+formato DD/MM/YYYY
+
+
+Ejercicio 2.2
+
+FN_TIME_STR
+
+Función para convertir una fecha a
+formato HH:MM:SS 
+
+
+
