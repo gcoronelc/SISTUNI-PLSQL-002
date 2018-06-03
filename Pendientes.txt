@@ -1,0 +1,3 @@
+Para cla clase 03
+=================================
+- Pipelined Table Functions
