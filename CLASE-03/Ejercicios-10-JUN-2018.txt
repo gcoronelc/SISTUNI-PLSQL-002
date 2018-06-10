@@ -1,0 +1,52 @@
+=============================================
+EJERCICIO 01
+===========================================
+Desarrollar una procedimiento que retorne
+un cursor con los siguientes datos:
+
+CODIGO      NOMBRE      SALDO     SALDO
+SUCURSAL    SUCURSAL    SOLES     DOLARES
+----------------------------------------------
+
+
+
+
+------------------------------------------------
+
+=============================================
+EJERCICIO 02
+=============================================
+Desarrollar un procedimiento que retorne 
+el siguiente reporte:
+
+CODIGO    NOMBRE      CANT.MOV.  CANT.MOV.
+EMPLEADO  EMPLEADO    SOLES      DOLARES
+------------------------------------------------
+
+
+
+
+
+-------------------------------------------------
+
+
+
+=============================================
+EJERCICIO 03
+=============================================
+Desarrollar un procedimiento que retorne 
+el siguiente reporte:
+
+CODIGO      NOMBRE                CANT.       
+SUCURSAL    SUCURSAL    MONEDA    MOVIMIENTO  IMPORTE
+---------------------------------------------------------
+
+
+
+
+
+-----------------------------------------------------------
+
+
+
+

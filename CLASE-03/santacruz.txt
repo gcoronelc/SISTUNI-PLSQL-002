@@ -1,0 +1,19 @@
+CREATE OR REPLACE PROCEDURE PR_DATOS
+IS
+CURSOR C_DEMO IS SELECT * FROM dept;
+r dept%rowtype;
+
+begin
+
+open C_demo;
+fetch c_demo into r;
+close c_demo;
+dbms_output.put_line ('deptno: '|| r.deptno);
+dbms_output.put_line ('dname: '|| r.dname);
+dbms_output.put_line ('loc: '|| r.loc);
+
+end;
+
+call  PR_DATOS();
+SET SERVEROUT ON 
+
