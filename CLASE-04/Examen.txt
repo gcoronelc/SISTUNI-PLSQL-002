@@ -1,0 +1,37 @@
+ESQUEMA: EDUCA
+CORREO:  gcoronelc@gmail.com
+ASUNTO:  SISTEMASUNI PL-SQL EXAMEN
+
+1.- Procedimiento para registrar una matricula
+    Datos:
+	  - Código de curso
+	  - Código del alumno
+	  - Cuotas: entre 1 y 3
+	  - Importe: Si es 1 cuota, debe ser el total
+	             Si es 2 ó 3 cuotas, debe ser minimo 
+				 el 30% del precio del curso. 
+
+2.- Diseñe un log que permita registrar pistas de 
+    auditoria cada vez que cambia la columna 
+	CUR_MATRICULADOS en la tabla curso, se debe 
+	registrar los siguientes datos:
+	 - Codigo del curso
+	 - Valor original
+	 - Nuevo valor
+	 - Usuario
+	 - Fecha y Hora
+	 - IP del equipo del usuario
+	 
+3.- Procedimiento que retorne los siguientes datos
+    por cada curso:
+
+	- Código del curso
+	- Nombre del curso
+	- Cantidad de matriculados
+	- Ingresos proyectados (Con las vacantes y el precio)
+	- Ingresos previstos   (Con los matriculados y el precio)
+	- Ingresos reales (Con los matriculados y los pagos)
+	
+	
+	
+    	 

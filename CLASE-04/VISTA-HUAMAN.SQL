@@ -1,0 +1,10 @@
+CREATE OR REPLACE VIEW SCOTT.V_EMPLEADOS 
+AS
+SELECT E.EMPNO,E.ENAME,D.DEPTNO,D.DNAME
+FROM EMP E 
+INNER JOIN DEPT D ON E.DEPTNO = D.DEPTNO;
+
+insert into scott.V_EMPLEADOS( empno, ename) values ( 8891, 'Jose' );
+select * from EMP;
+
+

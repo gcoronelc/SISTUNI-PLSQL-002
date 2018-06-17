@@ -1,0 +1,12 @@
+CREATE OR REPLACE TRIGGER SCOTT.TR_TEST_EMP
+AFTER INSERT OR DELETE OR UPDATE ON SCOTT.EMP
+BEGIN
+  IF INSERTING THEN
+   dbms_output.put_line('Nuevo empleado se ha insertado');
+  ELSIF UPDATING THEN
+  dbms_output.put_line('Un empleado se ha modificado');
+  ELSIF DELETING THEN
+  dbms_output.put_line('Un empleado se ha eliminado');
+  END IF;
+END SCOTT.TR_TEST_EMP;
+/
